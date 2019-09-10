@@ -160,6 +160,7 @@ blockquote {
 
 #page {
         width: 840px;
+        overflow: hidden;
         margin: 0px auto;
         padding: 0px 30px;
 }
@@ -168,6 +169,8 @@ blockquote {
         float: left;
         width: 520px;
         padding-right: 10px;
+        margin-bottom: -10000px;
+         padding-bottom: 10000px;
 }
 
 #column1 h2 {
@@ -183,7 +186,8 @@ blockquote {
         border-left-color: black;
         border-left-width: 5px;
         border-left-style: solid;
-         overflow: hidden;
+        margin-bottom: -10000px;
+    padding-bottom: 10000px;
         width: 300px;
 }
 
