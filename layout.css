@@ -183,7 +183,7 @@ blockquote {
         border-left-color: black;
         border-left-width: 5px;
         border-left-style: solid;
-        height: 2200px;
+         overflow: hidden;
         width: 300px;
 }
 
@@ -263,4 +263,4 @@ height: 5px;
 border-top: 1px dotted black;
 }
 
-/*© 2019-2020 Maximilian Baumann All Rights Reserved*/    
+/*© 2019-2020 Maximilian Baumann All Rights Reserved*/
