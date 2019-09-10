@@ -107,6 +107,10 @@ blockquote {
        margin: 0 auto;
        background: #00acee
 }
+#navigation h1 {
+       text-align: center;
+       color: white;
+}
 #logo {
         width: 270px;
         padding-top: 12px;
@@ -214,6 +218,27 @@ blockquote {
 #column2 li a {
         padding-left: 15px;
         text-decoration: none;
+}
+#column3 {
+        float: left;
+        width: 280px;
+       text-align: center;
+        margin-bottom: -10000px;
+         padding-bottom: 10000px;
+}
+#column4 {
+        float: left;
+        width: 280px;
+        text-align: center;
+        margin-bottom: -10000px;
+         padding-bottom: 10000px;
+}
+#column5 {
+        float: left;
+        width: 280px;
+        text-align: center;
+        margin-bottom: -10000px;
+         padding-bottom: 10000px;
 }
 
 .separator {
