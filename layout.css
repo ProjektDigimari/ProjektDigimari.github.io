@@ -93,7 +93,7 @@ blockquote {
 }
 
 #navigation a:hover {
-        color: #FFFFFFF
+        color: #FFFFFFF;
         background: #E5007D;
         color: white;
 }
