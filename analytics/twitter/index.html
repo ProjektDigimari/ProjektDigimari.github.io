@@ -17,7 +17,7 @@
 				<div class="box">
 					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="Passwort eingeben" /> <br />
 					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
+					<p id="falsches Passwort" style="display: none">falsches Passwort</p>
 				</div>
 			</div>
 		</div>
@@ -53,8 +53,8 @@
 
 				parent.location.hash= hash;
 
-				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
+				//$("#falsches Passwort").show();
+				$("#password").attr("placeholder","falsches Passwort");
 				$("#password").val("");
 			}
 		});
