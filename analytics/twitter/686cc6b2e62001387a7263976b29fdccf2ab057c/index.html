@@ -8,21 +8,28 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
-<link rel=File-List
-href="20200901_Twitter_Analyse_DIGIMARI_MB_V10b-Dateien/filelist.xml">
+<link rel=File-List href="index-Dateien/filelist.xml">
 <![if !supportTabStrip]>
-<link id="shLink" href="20200901_Twitter_Analyse_DIGIMARI_MB_V10b-Dateien/sheet001.html">
-<link id="shLink" href="20200901_Twitter_Analyse_DIGIMARI_MB_V10b-Dateien/sheet002.html">
+<link id="shLink" href="index-Dateien/sheet001.html">
+<link id="shLink" href="index-Dateien/sheet002.html">
+<link id="shLink" href="index-Dateien/sheet003.html">
+<link id="shLink" href="index-Dateien/sheet004.html">
+<link id="shLink" href="index-Dateien/sheet005.html">
+<link id="shLink" href="index-Dateien/sheet006.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=2;
+ var c_lTabs=6;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Chart";
- c_rgszSh[1] = "Rohdaten";
+ c_rgszSh[1] = "Dashboard";
+ c_rgszSh[2] = "Pivot 2";
+ c_rgszSh[3] = "DatenByDay";
+ c_rgszSh[4] = "Pivot1";
+ c_rgszSh[5] = "DatenByTweet";
 
 
 
@@ -52,7 +59,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -301,21 +308,36 @@ function fnSetActiveSheet(iSh)
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
     <x:Name>Chart</x:Name>
-    <x:WorksheetSource
-     HRef="20200901_Twitter_Analyse_DIGIMARI_MB_V10b-Dateien/sheet001.html"/>
+    <x:WorksheetSource HRef="index-Dateien/sheet001.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Rohdaten</x:Name>
-    <x:WorksheetSource
-     HRef="20200901_Twitter_Analyse_DIGIMARI_MB_V10b-Dateien/sheet002.html"/>
+    <x:Name>Dashboard</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet002.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Pivot 2</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet003.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>DatenByDay</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet004.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Pivot1</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet005.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>DatenByTweet</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet006.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
-  <x:Stylesheet
-   HRef="20200901_Twitter_Analyse_DIGIMARI_MB_V10b-Dateien/stylesheet.css"/>
-  <x:WindowHeight>12645</x:WindowHeight>
+  <x:Stylesheet HRef="index-Dateien/stylesheet.css"/>
+  <x:WindowHeight>9555</x:WindowHeight>
   <x:WindowWidth>22260</x:WindowWidth>
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
+  <x:ActiveSheet>1</x:ActiveSheet>
+  <x:FirstVisibleSheet>1</x:FirstVisibleSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -323,8 +345,8 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="20200901_Twitter_Analyse_DIGIMARI_MB_V10b-Dateien/sheet001.html" name="frSheet">
- <frame src="20200901_Twitter_Analyse_DIGIMARI_MB_V10b-Dateien/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
+ <frame src="index-Dateien/sheet002.html" name="frSheet">
+ <frame src="index-Dateien/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
    <p>Diese Seite verwendet Frames. Frames werden von Ihrem Browser aber nicht unterstützt.</p>
